@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -10,10 +11,13 @@ export default function Home() {
         <meta name="author" content="Long Ha Hoang" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <header>
         <h1>work in progress</h1>
+      </header>
+      <main>
         <p>hello world</p>
       </main>
+      <Footer />
     </>
   );
 }
