@@ -10,9 +10,17 @@ export default function Footer() {
         <Link href={"/data-privacy"}>Datenschutz</Link>
       </PageLinks>
       <ContactLinks>
-        <li>github</li>
-        <li>linkedin</li>
-        <li>email</li>
+        <li>
+          <Link href={"https://github.com/Long-HaHoang"}>github</Link>
+        </li>
+        <li>
+          <Link href={"https://www.linkedin.com/in/long-ha-hoang-213018260/"}>
+            linkedin
+          </Link>
+        </li>
+        <li>
+          <Link href={"mailto://long@shenlong.de"}>email</Link>
+        </li>
       </ContactLinks>
       <Copyright>
         &copy; 2023{" "}

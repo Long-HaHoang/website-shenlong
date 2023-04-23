@@ -12,9 +12,11 @@ export default function Layout({ children }) {
         <meta name="author" content="Long Ha Hoang" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        <h1>Work in Progress</h1>
-      </header>
+      <HomeHeader>
+        <h1>
+          Long <span>Ha Hoang</span>
+        </h1>
+      </HomeHeader>
       <main>{children}</main>
       <Footer />
     </AppContainer>
@@ -30,5 +32,16 @@ const AppContainer = styled.div`
 
   main {
     flex: 1;
+  }
+`;
+
+const HomeHeader = styled.header`
+  h1 {
+    width: 100%;
+    text-align: left;
+
+    @media (max-width: 991px) {
+      text-align: center;
+    }
   }
 `;

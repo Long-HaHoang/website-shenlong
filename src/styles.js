@@ -29,6 +29,9 @@ const globalStyle = css`
 
   body {
     height: 100%;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
     color: rgb(var(--foreground-rgb));
     background: rgb(var(--background-rgb));
   }
