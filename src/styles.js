@@ -28,12 +28,9 @@ const globalStyle = css`
   }
 
   body {
+    height: 100%;
     color: rgb(var(--foreground-rgb));
     background: rgb(var(--background-rgb));
-    border: solid gold;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
   }
 
   a {
@@ -60,6 +57,7 @@ const globalStyle = css`
     justify-content: center;
     gap: 0.5rem;
     padding: 1rem;
+    font-size: 1.2rem;
   }
 
   main > p {
@@ -69,29 +67,12 @@ const globalStyle = css`
   main > ul {
     padding: 1rem;
     width: 40%;
-    min-width: 200px;
+    min-width: 300px;
     align-self: center;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-  }
-
-  footer > div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 0.5rem;
   }
 
   @media (prefers-color-scheme: dark) {
