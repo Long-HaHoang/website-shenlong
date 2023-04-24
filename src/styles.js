@@ -11,7 +11,7 @@ const globalStyle = css`
   @media (prefers-color-scheme: dark) {
     :root {
       --foreground-rgb: 255, 255, 255;
-      --background-rgb: 0, 0, 0;
+      --background-rgb: 45, 46, 50;
     }
   }
 
