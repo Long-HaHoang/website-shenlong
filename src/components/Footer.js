@@ -31,8 +31,10 @@ export default function Footer() {
 }
 
 const StyledFooter = styled.footer`
-  display: grid;
   padding: 1rem;
+  border-top: solid rgb(var(--foreground-rgb)) 2px;
+
+  display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-auto-flow: row;
