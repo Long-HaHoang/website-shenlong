@@ -4,8 +4,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Layout>
-      <p>This site is under contruction</p>
-      <p>In the meanwhile you can look into my socials.</p>
+      <p>This site is under contruction.</p>
+      <p>
+        In the meanwhile you can <br /> look into my socials.
+      </p>
       <ul>
         <li>
           <Link href={"https://github.com/Long-HaHoang"}>Github</Link>

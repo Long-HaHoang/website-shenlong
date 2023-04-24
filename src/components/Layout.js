@@ -30,5 +30,10 @@ const AppContainer = styled.div`
 
   main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 1rem;
   }
 `;

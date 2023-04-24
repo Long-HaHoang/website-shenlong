@@ -68,8 +68,8 @@ const globalStyle = css`
   }
 
   main > ul {
-    padding: 1rem;
-    width: 40%;
+    border: solid rgb(var(--foreground-rgb));
+    padding: 0.5rem 2rem;
     min-width: 300px;
     align-self: center;
     display: flex;
